@@ -11,7 +11,8 @@ function main() {
 //dsnfkjssnfkjsmdljkdss()dfslkdlas;     // JsErrorScriptComple sample
 
 function callback_test(s) {
-    imp_print("callback_test.call:" + s + o.a);     //JsErrorScriptException sample
+    imp_print("callback_test.call:" + s);
+    //imp_print("callback_test.call:" + s + o.a);     //JsErrorScriptException sample
 }
 
 function array_test() {
