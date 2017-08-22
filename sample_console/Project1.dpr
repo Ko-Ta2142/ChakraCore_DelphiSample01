@@ -3,7 +3,7 @@ program Project1;
 {$APPTYPE CONSOLE}
 
 uses
-  fastmm4,
+  //fastmm4,
   SysUtils,classes,
   ChakraCommon,ChakraCommonWindows;
 
@@ -519,7 +519,7 @@ begin
 end;
 
 begin
-  ReportMemoryLeaksOnShutdown := true;    //fastmm4 memory leak check enable
+  //ReportMemoryLeaksOnShutdown := true;    //fastmm4 memory leak check enable
 
   main;
 end.
