@@ -20,8 +20,7 @@ function array_test() {
     for(var value of g_array){
             imp_print( value.toString() );
     }
-    imp_print(typeof(g_class));
 }
 
-//return main();    //returnすると上の更に上に投げてしまうみたいで取得出来ません
+//return main();
 main();
